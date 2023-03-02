@@ -18,10 +18,22 @@ You can visit my portfolio on your browser by visiting [ogre2.github.io/].
 ## Project Structure
 
 ```ASCII
+node_modules/
+public/
+├─ favicon.ico
+├─ index.html
+├─ logo192.png
+├─ logo512.png
+├─ manifest.json
+├─ robots.txt
+src/
 .gitignore
 CHANGELOG.md
 LICENSE
+package-lock.json
+package.json
 README.md
+
 ```
 
 ## Built With
