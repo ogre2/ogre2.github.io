@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 03/02/2023
+
+### Added
+
+- Updated project structure diagram in README file.
+
 ## [1.0.1] - 03/02/2023
 
 ### Added
@@ -38,7 +44,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - This CHANGELOG file to track project source code evolution.
 - Project details in the README file.
 
-[Unreleased]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/ogre2/ogre2.github.io/compare/v0.0.1...v1.0.0
 [0.0.1]: https://github.com/ogre2/ogre2.github.io/releases/tag/v0.0.1
