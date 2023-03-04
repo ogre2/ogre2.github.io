@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.3] - 03/04/2023
+
+### Removed
+
+- Unusued getDate functions in `<main.js>` file.
+
+### Fixed
+
+- Footer year error in footer component (replaced external getDate function with inline).
+
 ## [1.1.2] - 03/04/2023
 
 ### Added
@@ -88,7 +98,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - This CHANGELOG file to track project source code evolution.
 - Project details in the README file.
 
-[Unreleased]: https://github.com/ogre2/ogre2.github.io/compare/v1.1.2....HEAD
+[Unreleased]: https://github.com/ogre2/ogre2.github.io/compare/v1.1.3....HEAD
+[1.1.3]: https://github.com/ogre2/ogre2.github.io/compare/v1.1.1...v1.1.3
 [1.1.2]: https://github.com/ogre2/ogre2.github.io/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/ogre2/ogre2.github.io/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.2...v1.1.0

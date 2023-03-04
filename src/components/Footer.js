@@ -10,7 +10,7 @@ function Footer() {
                             <img src={logo} className="footer-brand-img" alt="Stephen M." />
                         </a>
 
-                        <p className="text-primary ms-2">&copy; <span className="footer-year">1997</span> Stephen M.</p>
+                        <p className="text-primary ms-2">&copy; {new Date().getFullYear()} Stephen M.</p>
                     </div>
 
                     <ul className="nav col-auto justify-content-end list-unstyled d-flex align-items-center">
