@@ -104,7 +104,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className="services" data-aos="fade-right" data-aos-duration="2750">
+            <section className="services" data-aos="fade-right">
                 <div className="container py-5">
                     <div className="row d-flex justify-content-center mb-5">
                         <div className="col-md-6 col-sm-12 col-xs-12 text-center">
@@ -113,7 +113,7 @@ function Home() {
                     </div>
 
                     <div className="row d-flex justify-content-center">
-                        <div className="col-md-3 col-sm-12 col-xs-12 mb-3 mb-md-0">
+                        <div className="col-md-3 col-sm-12 col-xs-12 mb-4 mb-md-0">
                             <div className="card service-card">
                                 <div className="card-body p-4">
                                     <i className="bi bi-layout-wtf fs-22 text-primary"></i>
@@ -127,7 +127,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="col-md-3 col-sm-12 col-xs-12 mb-3 mb-md-0">
+                        <div className="col-md-3 col-sm-12 col-xs-12 mb-4 mb-md-0">
                             <div className="card service-card">
                                 <div className="card-body p-4">
                                     <i className="bi bi-bootstrap fs-22 text-primary"></i>
@@ -141,7 +141,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="col-md-3 col-sm-12 col-xs-12 mb-3 mb-md-0">
+                        <div className="col-md-3 col-sm-12 col-xs-12 mb-4 mb-md-0">
                             <div className="card service-card">
                                 <div className="card-body p-4">
                                     <i className="bi bi-pc-display-horizontal fs-22 text-primary"></i>
@@ -155,7 +155,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="col-md-3 col-sm-12 col-xs-12 mb-3 mb-md-0">
+                        <div className="col-md-3 col-sm-12 col-xs-12 mb-4 mb-md-0">
                             <div className="card service-card">
                                 <div className="card-body p-4">
                                     <i className="bi bi-hdd-rack fs-22 text-primary"></i>
