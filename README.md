@@ -20,34 +20,48 @@ You can visit my portfolio on your browser by visiting [ogre2.github.io/].
 ```ASCII
 build/
 ├─ static/
-│  ├─ css/
 │  ├─ js/
-│  ├─ media/
+│  ├─ static/
+│  │  ├─ css/
+│  │  ├─ js/
+│  │  ├─ media/
+│  ├─ android-chrome-192x192.png
+│  ├─ android-chrome-512x512.png
+│  ├─ apple-touch-icon.png
 │  ├─ asset-manifest.json
+│  ├─ favicon-16x16.png
+│  ├─ favicon-32x32.png
 │  ├─ favicon.ico
 │  ├─ index.html
-│  ├─ logo192.png
-│  ├─ logo512.png
 │  ├─ manifest.json
 │  ├─ robots.txt
+│  ├─ site.webmanifest
 node_modules/
 public/
+├─ js/
+│  ├─ main.js
+├─ android-chrome-192x192.png
+├─ android-chrome-512x512.png
+├─ apple-touch-icon.png
+├─ favicon-16x16.png
+├─ favicon-32x32.png
 ├─ favicon.ico
 ├─ index.html
-├─ logo192.png
-├─ logo512.png
 ├─ manifest.json
 ├─ robots.txt
+├─ site.webmanifest.json
 src/
+├─ assets/
 ├─ components/
 ├─ scss/
+├─ views/
+├─ ...
 .gitignore
 CHANGELOG.md
 LICENSE
 package-lock.json
 package.json
 README.md
-
 ```
 
 ## Built With
