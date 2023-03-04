@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [1.1.1] - 03/04/2023
+
+### Fixed
+
+- Icon for android/chrome and apple in `<manifest.json>` error.
+
+### Removed
+
+- Unused onScroll function in `<main.js>` file.
+
 ## [1.1.0] - 03/04/2023
 
 ### Added
@@ -67,7 +77,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - This CHANGELOG file to track project source code evolution.
 - Project details in the README file.
 
-[Unreleased]: https://github.com/ogre2/ogre2.github.io/compare/v1.1.0....HEAD
+[Unreleased]: https://github.com/ogre2/ogre2.github.io/compare/v1.1.1....HEAD
+[1.1.1]: https://github.com/ogre2/ogre2.github.io/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.0...v1.0.1
