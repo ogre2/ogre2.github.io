@@ -1,0 +1,27 @@
+/*------------------------------------------------------------------
+[3.4. Footer]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Site Footer]
+*/
+.site-footer {
+    bottom: 0;
+    background: transparent;
+    .footer-brand {
+        .footer-brand-img {
+            height: 40px;
+            width: auto;
+            opacity: 55%;
+        }
+        &:hover {
+            .footer-brand-img {
+                opacity: 100%;
+            }
+        }
+    }
+}
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    @include easeInOut25s;
+}

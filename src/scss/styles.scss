@@ -1,0 +1,49 @@
+@charset 'utf-8';
+/*------------------------------------------------------------------
+[Master Stylesheet]
+--------------------------------------------------------------------
+Project: Portfolio App
+Project URI: https://ogre2.github.io/
+Author: Stephen M.
+Author URI: https://stephenwm.me/
+Description: My personal portfolio web app built on React.
+Version: 1.0
+Last change: 03/03/2023 [Initial build]
+Assigned to: Stephen M.
+Primary use: Portfolio
+License: Apache License 2.0
+License URI: LICENSE
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of Contents]
+--------------------------------------------------------------------
+--- 1.1 Variables
+--- 1.2 Mixins
+--- 1.3 Keyframes
+--- 2.1 Resets
+--- 2.2 Body
+--- 2.3 Functions
+--- 2.4 Typography
+--- 2.5 Links
+--- 2.6 Buttons
+--- 2.7 Forms
+--- 3.1 Header
+--- 3.2 Cards
+--- 3.3 Alerts
+--- 3.4 Footer
+------------------------------------------------------------------*/
+@import '1-helpers/variables';
+@import '1-helpers/mixins';
+@import '1-helpers/keyframes';
+@import '2-base/resets';
+@import '2-base/body';
+@import '2-base/functions';
+@import '2-base/typography';
+@import '2-base/links';
+@import '2-base/buttons';
+@import '2-base/forms';
+@import '3-components/header';
+@import '3-components/footer';
+@import '3-components/cards';
+@import '4-views/home';
+/* @import "debugging.css"; */

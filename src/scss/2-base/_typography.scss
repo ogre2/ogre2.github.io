@@ -1,0 +1,280 @@
+/*------------------------------------------------------------------
+[2.4. Typography]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Headings]
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 75px;
+    line-height: 91px;
+}
+h2 {
+    font-size: 63px;
+    line-height: 76px;
+}
+h3 {
+    font-size: 42px;
+    line-height: 50px;
+}
+h4 {
+    font-size: 29px;
+    line-height: 35px;
+}
+h5 {
+    font-size: 23px;
+    line-height: 28px;
+}
+h6 {
+    font-size: 18px;
+    line-height: 22px;
+}
+.heading-1 {
+    font-size: 80px;
+    line-height: 96px;
+}
+.heading-2 {
+    font-size: 64px;
+    line-height: 77px;
+}
+.heading-3 {
+    font-size: 48px;
+    line-height: 58px;
+}
+.heading-4 {
+    font-size: 32px;
+    line-height: 38px;
+}
+.heading-5 {
+    font-size: 24px;
+    line-height: 29px;
+}
+@media only screen and (max-width: 400px) {
+    .heading-1 {
+        font-size: 60px;
+    }
+    .heading-2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .heading-3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+}
+/*------------------------------------------------------------------
+[Paragraphs]
+*/
+p {
+    margin: 0;
+    padding: 0;
+}
+.text-1 {
+    font-size: 21px;
+    line-height: 32px;
+}
+.text-2 {
+    font-size: 18px;
+    line-height: 26px;
+}
+.text-3 {
+    font-size: 14px;
+    line-height: 21px;
+}
+.text-4 {
+    font-size: 16px;
+    line-height: 24px;
+}
+.text-5 {
+    font-size: 14px;
+    line-height: 21px;
+}
+.text-5 {
+    font-size: 12px;
+    line-height: 18px;
+}
+.text-6 {
+    font-size: 11px;
+    line-height: 16px;
+}
+@media only screen and (max-width: 400px) {
+    .text-1 {
+        font-size: 16px;
+    }
+    .text-2 {
+        font-size: 14px;
+    }
+}
+/*------------------------------------------------------------------
+[Font Sizes & Line Heights]
+*/
+$font-sizes: (11, 12, 14, 16, 18, 21, 22, 23, 24, 26, 28, 30, 32, 64);
+$line-heights: (16, 17, 19, 21, 25, 27, 77);
+
+@each $size in $font-sizes {
+    .fs-#{$size} {
+        font-size: #{$size}px;
+    }
+}
+
+@each $height in $line-heights {
+    .lh-#{$height} {
+        line-height: #{$height}px;
+    }
+}
+/*------------------------------------------------------------------
+[Font Weights]
+*/
+$font-weights: (100, 200, 300, 400, 500, 600, 700, 800, 900);
+
+@each $weight in $font-weights {
+    .fw-#{$weight} {
+        font-weight: #{$weight};
+    }
+}
+/*------------------------------------------------------------------
+[Text Alignments & Wrapping]
+*/
+.text-start {
+    text-align: left !important;
+}
+.text-end {
+    text-align: right !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-wrap {
+    white-space: normal !important;
+}
+.text-nowrap {
+    white-space: nowrap !important;
+}
+.text-break {
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+}
+/*------------------------------------------------------------------
+[Text Transformations]
+*/
+.text-normal {
+    text-transform: initial;
+}
+.text-lowercase {
+    text-transform: lowercase !important;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+/*------------------------------------------------------------------
+[Text Decorations]
+*/
+.text-decoration-none {
+    text-decoration: none !important;
+}
+.text-decoration-underline {
+    text-decoration: underline !important;
+}
+.text-decoration-line-through {
+    text-decoration: line-through !important;
+}
+/*------------------------------------------------------------------
+[Text Colors]
+*/
+.text-blue {
+    color: #377dff;
+}
+.text-orange {
+    color: #fd7e14;
+}
+.text-yellow {
+    color: $sm-yellow;
+}
+.text-green {
+    color: #0DAD0A;
+}
+.text-teal {
+    color: #00c9a7;
+}
+.text-cyan {
+    color: #09a5be;
+}
+.text-black {
+    color: #000000;
+}
+.text-white {
+    color: #ffffff;
+}
+.text-gray {
+    color: #8c98a4;
+}
+.text-gray-dark {
+    color: #71869d;
+}
+.text-gray-100 {
+    color: #f9fafc;
+}
+.text-gray-200 {
+    color: #f8fafd;
+}
+.text-gray-300 {
+    color: #e7eaf3;
+}
+.text-gray-400 {
+    color: #bdc5d1;
+}
+.text-gray-500 {
+    color: #97a4af;
+}
+.text-gray-600 {
+    color: #8c98a4;
+}
+.text-gray-700 {
+    color: #677788;
+}
+.text-gray-800 {
+    color: #71869d;
+}
+.text-gray-900 {
+    color: #1e2022;
+}
+.text-primary {
+    color: #9A9A9A!important;
+}
+.text-secondary {
+    color: #8a8a8a!important;
+}
+.text-success {
+    color: #00c9a7;
+}
+.text-warning {
+    color: #f5ca99;
+}
+.text-danger {
+    color: #ed4c78;
+}
+.text-light {
+    color: #f9fafc;
+}
+.text-dark {
+    color: #132144;
+}
+.text-dark-alt {
+    color: #21313c;
+}
+.text-gradient {
+    background: -webkit-linear-gradient(0.10turn, #dadada, #636363);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

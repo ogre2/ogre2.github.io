@@ -1,0 +1,142 @@
+/*------------------------------------------------------------------
+[3.1. Header]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Site Header]
+*/
+.site-header {
+    top: 0;
+    .navbar-default {
+        .navbar-brand {
+            .navbar-brand-img {
+                height: 40px;
+                width: auto;
+                opacity: 55%;
+            }
+            &:hover {
+                .navbar-brand-img {
+                    opacity: 100%;
+                }
+            }
+        }
+        .navbar-menu {
+            .nav-contact {
+                height: 55px;
+                width: 55px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #1A1A1A;
+                border-radius: 100%;
+                border: 1px solid #242424;
+                color: #9A9A9A;
+                font-size: 22px;
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: #9A9A9A;
+                    &:hover,
+                    &:focus {
+                        color: $sm-white;
+                    }
+                }
+            }
+            &:first-of-type {
+                .nav-item {
+                    &:not(:first-of-type) {
+                        margin-left: 15px;
+                    }
+                }
+            }
+            &:last-of-type {
+                .nav-item {
+                    &:not(:first-of-type) {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .nav-collapse {
+        .nav-item {
+            height: 55px;
+            width: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #1A1A1A;
+            border-radius: 100%;
+            border: 1px solid #242424;
+            color: #9A9A9A;
+            font-size: 22px;
+        }
+        .navbar-toggler {
+            border: none;
+            outline: none;
+            box-shadow: none;
+            color: #9A9A9A;
+            &:hover,
+            &:active,
+            &:focus {
+                border: none;
+                outline: none;
+                box-shadow: none;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+.offcanvas {
+    background-color: #1A1A1A;
+    .offcanvas-header {
+        border-bottom: 1px solid #242424;
+        .navbar-brand {
+            .navbar-brand-img {
+                height: 40px;
+                width: auto;
+            }
+        }
+        .btn-close {
+            border: none;
+            outline: none;
+            box-shadow: none;
+            font-size: 22px;
+            &:hover,
+            &:active,
+            &:focus {
+                border: none;
+                outline: none;
+                box-shadow: none;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .offcanvas-body {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: #9A9A9A;
+                    &:hover,
+                    &:focus {
+                        color: $sm-white;
+                    }
+                }
+            }
+        }
+    }
+}
+.navbar-scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #161616;
+    border-bottom: 1px solid #242424;
+    z-index: 5;
+    animation: fadeInDown;
+    animation-duration: 0.5s;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    // @include lightShadow;
+}

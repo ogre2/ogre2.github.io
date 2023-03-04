@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 03/04/2023
+
+### Added
+
+- Installed project dependencies.
+- Created `<js>` folder inside the `<public>` subdirectory.
+- Created components folder inside the `<src>` subdirectory.
+  - Created and styled the Header component.
+- Finished initial App/Home page.
+- Recompiled build folder.
+
+### Changes
+
+- Replaced logo.svg file in `<src>` subdirectory.
+- Replaced favicon in `<public>` subdirectory.
+- Replaced android and apple icons `<public>` subdirectory.
+- Changed app title in the `<index.html>` file.
+- Removed default code in the `<App.js>` file.
+
+### Removed
+
+- `<App.css>` and `<index.css>` files.
+
 ## [1.0.2] - 03/02/2023
 
 ### Added
@@ -44,7 +67,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - This CHANGELOG file to track project source code evolution.
 - Project details in the README file.
 
-[Unreleased]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.2...HEAD
+[Unreleased]: https://github.com/ogre2/ogre2.github.io/compare/v1.1.0....HEAD
+[1.1.0]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/ogre2/ogre2.github.io/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/ogre2/ogre2.github.io/compare/v0.0.1...v1.0.0

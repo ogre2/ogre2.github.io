@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/jquery/dist/jquery';
+import '../node_modules/@popperjs/core/dist/umd/popper';
+import '../node_modules/bootstrap/dist/js/bootstrap';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+import '../node_modules/aos/dist/aos.css';
+import '../node_modules/animate.css/animate.min.css';
+import './scss/styles.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
     <App />
   </React.StrictMode>
 );

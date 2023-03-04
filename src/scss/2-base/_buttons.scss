@@ -1,0 +1,68 @@
+/*------------------------------------------------------------------
+[2.6. Buttons]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Default]
+*/
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    appearance: button;
+    cursor: pointer;
+    &:hover,
+    &:focus,
+    &:visited {
+        outline: none;
+        border: none;
+        box-shadow: none;
+        cursor: pointer;
+    }
+    &::-moz-focus-inner {
+        border-style: none;
+    }
+    &:-moz-focusring {
+        outline: none;
+    }
+}
+/*------------------------------------------------------------------
+[Bootstrap Buttons]
+*/
+.btn {
+    border: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    @include easeInOut20s;
+    &.btn-padded {
+        padding: 22px 40px;
+    }
+    &.btn-primary {
+        color: #9A9A9A;
+        border: 1px solid #242424;
+        border-radius: 2px;
+        background: #1A1A1A;
+        z-index: 3;
+        .bi {
+            margin-left: 10px;
+            display: inline-block;
+        }
+        &:hover {
+            padding: 22px 60px;
+            .bi {
+               margin-left: 20px;
+               transform: rotate(135deg);
+            }
+        }
+    }
+}
